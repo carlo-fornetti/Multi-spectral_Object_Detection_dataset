@@ -12,7 +12,7 @@ base_dir= Path("./dataset/ir_det_dataset")
 img_train_path = base_dir /'Images'/'fir'
 label_path = base_dir /'labels'/'fir'
 
-ims = sorted(list(img_train_path.glob('*'))) #merge labels and images for yolov8 format
+ims = sorted(list(img_train_path.glob('*'))) #merge labels and images in a single folder for yolov8 format
 labels = sorted(list(label_path.glob('*')))
 pairs = list(zip(ims,labels))
 
