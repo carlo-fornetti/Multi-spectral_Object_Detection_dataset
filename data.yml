@@ -2,4 +2,4 @@ train: ./train
 val: ./valid
 
 nc: 8
-names: ['Pedestrin', 'Car', 'Bike', 'Color_cone', 'Obstacle','Bump','Hole', 'd']
+names: ['Pedestrian', 'Car', 'Bike', 'Color_cone', 'Obstacle','Bump','Hole', 'd']
