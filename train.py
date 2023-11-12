@@ -35,7 +35,7 @@ for t_img, t_lb in tqdm(test): #save test images in test folder
     shutil.copy(t_img,im_path)
     shutil.copy(t_lb,lb_path)
 
-model = YOLO("yolov8n.pt") #load a model pretrained on COCO datset
+model = YOLO("yolov8n.pt")                      #load a model pretrained on COCO datset
 train = model.train(data="data.yml", epochs=10) #train the model with 10 epochs
 
 valid = model.val() #validate the model
