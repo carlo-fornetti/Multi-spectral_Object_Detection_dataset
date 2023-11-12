@@ -18,4 +18,4 @@ https://github.com/ultralytics/ultralytics
 
 ## Results
 
-![architecture](./Multi_spectral/000000.png)
+![architecture](./000000.png)
