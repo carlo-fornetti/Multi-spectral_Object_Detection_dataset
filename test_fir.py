@@ -21,5 +21,4 @@ for sample_name in sample_list: #print the samples to see the results
     image = cv2.imread(img_path)
     cv2.imshow('Result: ', image)
     cv2.imwrite(valid_dir + sample_name + '.png', image)
-    print("\n")
     cv2.waitKey(0)
